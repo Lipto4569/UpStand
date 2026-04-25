@@ -51,9 +51,8 @@
     margin-left: 2%;
 }
 .cont{
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 800;
+    font-family: "Fascinate", system-ui;
+    font-weight: 700;
     font-style: normal;
     font-size: 300%;
 }
@@ -81,4 +80,59 @@
 .hero_button:active{
     background-color: white;
     color: black;
+}
+
+
+
+.box{
+    width: 100%;
+    height: max-content;
+    /* border: 5px solid red; */
+}
+.parentbabyboxes{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1%;
+}
+.babyboxes{
+    border: 0.1px solid black;
+    width: 100%;
+    max-width: 20vw;
+    height: 25vh;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    cursor:pointer;
+    border-radius: 25px;
+    box-shadow: black -6px 10px 60px -16px;
+}
+.image{
+    width: 100%;
+    max-width: 20vw;
+    height: 25vh;
+    margin-right: 4%;
+}
+.babypara{
+    margin-top: 6%;
+    cursor: text;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.babyboxes:hover{
+    animation-name: hover_animation;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0, 0.01, 0.98, 1);
+    animation-duration: 0.2s;
+    animation-delay: 0.15s;
+}
+@keyframes hover_animation{
+    0%{
+        max-width: 20vw;
+    }
+    100%{
+        max-width: 45vw;
+    }
 }
