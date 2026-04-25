@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ullist{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+.list{
+    list-style: none;
+    margin-top: 1.1vh;
+}
+.list>a{
+    text-decoration: none;
+    color: black;
+
+}
+#logo{
+    margin-top: 0%;
+}
+#logo>a{
+    font-size: xx-large;
+}
+.list>a{
+    font-size: larger;
+    font-family: "Story Script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.list>a:hover{
+    text-decoration: underline;
+}
+.parent{
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 100%;
+    margin-top: 0.01%;
+    padding-top: 0.01%;
+    background: linear-gradient(-45deg, #c29fa5, #d4a082, #d89595, #e9e9e9);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.heading{
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.cont{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 300%;
+}
+.para_of_hero{
+    margin-top: 4%;
+    margin-left: 0.5%;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: larger;
+    max-width: 600px;
+}
+.hero_button{
+    margin-top: 4%;
+    margin-left: 1.5%;
+    width: 8%;
+    height: 6%;
+    border-radius:40px;
+    background-color: black;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+.hero_button:active{
+    background-color: white;
+    color: black;
+}
