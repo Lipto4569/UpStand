@@ -136,3 +136,144 @@
         max-width: 45vw;
     }
 }
+.infinty_castle{
+    /* border: 2px solid red; */
+    margin-top: 5vh;
+}
+.subcastle{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.cards{
+    border: 0.1px solid black;
+    height: 50vh;
+    width: 20vw;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    border-radius: 25px;
+    box-shadow: inset 1px 1px 25px 0px black;
+    cursor: pointer;
+}
+.cardimage{
+    width: inherit;
+    border-top-right-radius: inherit;
+    border-top-left-radius: inherit;
+    box-shadow: inset 1px 1px 25px 0px black;
+    
+}
+.cardpara{
+    margin-top: 3.5vh;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.cards:hover{
+    box-shadow: inset 1px 1px 50px 0px black;
+    
+}
+
+
+.site-footer {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 60px 20px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-logo {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.footer-logo span {
+  color: #ffafbd; /* Matches your pink gradient */
+}
+
+.footer-col h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #ffc3a0; /* Matches your orange gradient */
+}
+
+.footer-col p {
+  line-height: 1.6;
+  font-size: 14px;
+  color: #bbb;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-col ul li a:hover {
+  color: #fff;
+}
+
+/* Newsletter Input Styles */
+.newsletter-form {
+  display: flex;
+  margin-top: 15px;
+}
+
+.newsletter-form input {
+  padding: 10px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+  width: 70%;
+}
+
+.newsletter-form button {
+  padding: 10px;
+  background: linear-gradient(to right, #ffafbd, #ffc3a0);
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Bottom Bar */
+.footer-bottom {
+  max-width: 1200px;
+  margin: 40px auto 0;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  color: #888;
+}
+
+.social-links a {
+  margin-left: 15px;
+  color: #888;
+  text-decoration: none;
+}
